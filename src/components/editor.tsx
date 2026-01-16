@@ -63,8 +63,8 @@ export function Editor() {
       }
 
       // Update page title from first line
-      const firstLine = text.split('\n')[0]?.replace(/^#*\s*/, '').trim() || 'Aria Mark'
-      document.title = firstLine.slice(0, 50) || 'Aria Mark'
+      const firstLine = text.split('\n')[0]?.replace(/^#*\s*/, '').trim() || 'AriaMark'
+      document.title = firstLine.slice(0, 50) || 'AriaMark'
     } catch (error) {
       console.error('Failed to save to URL:', error)
     }
